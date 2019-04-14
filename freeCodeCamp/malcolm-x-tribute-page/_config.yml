@@ -1,0 +1,15 @@
+# Basic website information
+title: Malcolm X
+description: >
+  A tribute to Malcolm X.
+url:
+author: Eugene Triguba
+
+# Google Analytics - Replace 'UA-XXXXX-Y' with your site ID.
+google_analytics: UA-XXXXX-Y
+
+# Build Settings
+markdown: kramdown
+sass:
+  sass_dir: /assets/stylesheets/
+  style: compressed

@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+ruby RUBY_VERSION
+
+gem "jekyll", ">= 3.6.3"
+gem "bourbon", "5.0.0.beta.7"
+gem "neat"
+gem "sass"

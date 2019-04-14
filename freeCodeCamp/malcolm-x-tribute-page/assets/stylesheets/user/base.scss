@@ -1,0 +1,65 @@
+// BREAKPOINTS
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(max-width 768px);
+
+// COLORS
+$gray: #999;
+
+.page-container {
+  @include outer-container(12);
+  max-width: 800px;
+  padding: 1rem;
+  margin-top: 1rem;
+  @include media($tablet) {
+    padding: 2rem;
+  }
+}
+
+.site-header, .site-footer {
+  height: 3.5rem;
+  padding: 1rem 2rem 1rem;
+  p, h1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    font-weight: 400;
+    @include media($tablet) {
+      padding: 0;
+    }
+  }
+}
+
+.site-header {
+	border-bottom: 1px solid rgba($gray, .3);
+}
+
+.site-footer {
+	border-top: 1px solid rgba($gray, .3);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+main {
+  @include span-columns(6);
+  @include media($mobile) {
+    @include span-columns(12);
+  }
+}
+
+.profile {
+  border-radius: 10px;
+}
+
+.profile-container {
+  @include span-columns(5);
+  float: right;
+  margin: 0;
+  @include media($mobile) {
+    @include span-columns(12);
+  }
+}
+
+.image-caption {
+  width: 325px;
+}
