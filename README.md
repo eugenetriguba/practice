@@ -1,3 +1,3 @@
 # Practice
 
-This repository is for holding programs I've written, from various sources and for various motivations, for the purpose of learning some concept or programming language.
+This repository is for holding programs I've written, from various sources and for various motivations, for the purpose of learning some concept or programming language. Some of the code in here is somewhat old.
